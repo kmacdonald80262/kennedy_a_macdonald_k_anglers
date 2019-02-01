@@ -1,7 +1,7 @@
 # Thames River Anglers Association
 
 
-#Installation/Usage
+**Installation/Usage**
 
 git init
 
@@ -17,7 +17,7 @@ Then you can check out our website for the TRAA
 
 
 
-#Built With
+**Built With**
 
 HTML5
 CSS, CSS3 
@@ -26,7 +26,7 @@ JavaScript
 
 
 
-#Authors
+**Authors**
 [Alexandrea Kennedy](https://github.com/akennedy61891)- Designer and Developer
 
 [Kathleen MacDonald](https://github.com/kmacdonald80262)-Designer and Developer
