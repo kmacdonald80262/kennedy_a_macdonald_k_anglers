@@ -35,6 +35,7 @@
 	width: 700px;
 	margin-left: 340px;
 	margin-top: 35px;
+	
 	display: flex;
 	flex-direction: row;
 }
