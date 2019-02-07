@@ -5,17 +5,22 @@
 	<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen">
 	<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
 </head>
+<style>
+.mySlides {display:none;}
+</style>
+
 
 <body>
 	<h1 class="hidden">TRAA Main Page</h1>
 	<div id="siteContainer">
 	<header id="mainHeader">
 			<div id="logo"><img src="images/logo.jpg" alt="logo" height="120" width="120"></div>
+			<div id="treeLine"><img src="images/tree-line.jpg" alt="tree line" height="20" width="312"></div>
 			<nav id="mainNav">
 				<ul>
 					<li><a href="index.html">HOME</a><li>
 					<li><a href="about.html">ABOUT</a></li>
-					<li><a href="project.html">PROJECTS</a></li>
+					<li><a href="#top">PROJECTS</a></li>
 					<li><a href="news.html">NEWS</a></li>
 					<li><a href="contact.html">CONTACT US</a></li>
 				</ul>
@@ -58,8 +63,57 @@ We meet at the Western Ontario Fish & Game Protective Association clubhouse at 7
 
 <section id="projBanner">
 	<h2 class="hidden">Projects</h2>
-	<p>Projects</p>
+
+	<p id="top">Projects</p>
 </section>
+
+
+
+
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img class="scoop" src="images/scoop.jpg" style="width:100%">
+    <div class="text">
+    	<h2 id="title">TRAA Trout Hatchery</h2>
+<br>
+    	The Hatchery began in the mid-1980's as an outdoor upwelling box located adjacent to Komoka Creek on private property. While it was a simple and rustic affair, the TRAA enjoyed incredible egg hatching and fry survivability rates for several seasons.<br><a href="#">
+READ MORE</a></div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="images/lake.jpg" style="width:100%">
+    <div class="text">Caption Two</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div>
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div> 
+
+
+
+
+
+
+
 
 
 <script src="js/main.js"></script>
