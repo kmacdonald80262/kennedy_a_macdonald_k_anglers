@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+.hidden
+{
+	display: none;
+}
+
+
+#siteContainer
+{
+	margin: 0 auto;
+	width: 1200px;
+}
+
+#mainHeader
+{
+	margin-top: 20px;
+	height: 120px;
+	display: flex;
+	flex-direction: row;
+}
+
+#logo
+{
+
+	height: 120px;
+	width: 120px;
+}
+
+#mainNav
+{
+	
+	height: 50px;
+	width: 700px;
+	margin-left: 340px;
+	margin-top: 35px;
+	
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul
+{
+	display: flex;
+	flex-direction: row;
+}
+
+#mainNav ul li a
+{
+	display: block;
+	width: 100px;
+	color: #5e7034;
+	margin-left: 20px;
+	text-align: center;
+	margin-top: 20px;
+	text-decoration: none;
+}
+
+#lakeImg
+{
+	
+	height: 500px;
+	width: 1200px;
+	margin-top: 13px;
+	filter: blur(1.5px);
+}
+
+#eventInfo
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 300px;
+}
+
+#eventMap
+{
+	
+	width: 350px;
+	height: 300px;
+	margin-left: 20px;
+}
+
+#eventDesc
+{
+	
+	height: 300px;
+	width: 775px;
+	margin-left: 35px;
+}
+
+#eventDesc p 
+{
+	display: block;
+	color: #5e7034;
+	text-align: center;
+	font-size: 18px;
+	margin-top: 40px;
+	font-family: Tahoma; 
+}
+
+#eventDesc p:first-line
+{
+	font-weight: bold;
+	font-size: 30px;
+	font-family: Tahoma bold;
+}
+
+#prodBanner
+{
+	display: flex;
+	height: 541px;
+	width: 1200px;
+	background-color: #4a8dc3;
+}
+
+#prodBanner p
+{
+	position: absolute;
+	text-align: center;
+	color: white;
+	font-size: 30px;
+	margin-left: 544px;
+	margin-top: 10px;
+	font-family: Tahoma bold;
+}
+
+#prodBG
+{
+	background-color: #2d6a9b;
+	width: 1200px;
+	height: 50px;
+	
+}
+
+#prodArea
+{
+	display: flex;
+	flex-direction: row;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+#prodArea p
+{
+	display: flex;
+	color: white;
+	text-align: center;
+	font-family: Tahoma bold;
+	background-color: #3277b8;
+	border-radius: 5px;
+	padding: 8px;
+}
+
+
+#projBanner
+{
+	display: flex;
+	flex-direction: row;
+	height: 225px;
+	width: 1200px;
+	background-color: #4f5f27;
+	margin-top: -17px;
+}
+
+#projBanner p
+{
+	display: flex;
+	color: #6c8235;
+	font-family: Tahoma bold;
+	font-size: 100px;
+	text-align: center;
+	margin-left: 400px;
+	margin-top: 50px;
+}
+
+
