@@ -177,4 +177,86 @@
 	margin-top: 50px;
 }
 
+/*Start of Newsletters section */
 
+#newsBanner {
+	display: flex;
+	flex-direction: row;
+  	justify-content: space-evenly;
+  	height: 225px;
+	width: 1200px;
+	background-color: #4f5f27;
+}
+
+.trillium {
+	margin-left: auto;
+	margin-right: auto;
+	transform: rotate(45deg);
+}
+
+#newsBanner h2 {
+	display: flex;
+	color: #6c8235;
+	font-family: Tahoma, Helvetica, sans-serif;
+	font-size: 100px;
+	text-align: center;
+	font-weight: bold;
+	margin-top: auto;
+	margin-bottom: auto;
+}
+
+#newsHero img {
+	width: 1200px;
+	height: 500px;
+}
+
+
+#newsHero {
+	position: relative;
+ 	text-align: center;
+}
+
+#newsLinks {
+  position: absolute;
+  width: 800px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#newsLinks a {
+	text-decoration: none;
+	font-family: serif;
+	font-size: 45px;
+	line-height: 80px;
+	color: white;
+	word-spacing: 5px;
+	opacity: .75;
+	text-shadow: 1px 1px 2px black;
+}
+
+#newsLinks a:hover {
+	color: yellow;
+	background-color: #333;
+	border-radius: 20px;
+	padding-left: 3px;
+	padding-right: 3px;
+	padding-bottom: 3px;
+	padding-top: 3px;
+	opacity: 1;
+	transition: .5s ease;
+}
+
+#newsText {
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 30px;
+	font-family: serif;
+	color: white;
+	font-size: 16px;
+}
+
+#newsArea {
+	background-color: #7F9BC6;
+}
