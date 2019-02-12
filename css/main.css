@@ -7,6 +7,10 @@
 	display: none;
 }
 
+p 
+{
+	font-family: Tahoma;
+}
 #siteContainer
 {
 	margin: 0 auto;
@@ -636,7 +640,6 @@
 	height: 225px;
 	width: 1200px;
 	background-color: #a9c070;
-	margin-top: 10px;
 }
 
 #pastBanner p
@@ -644,10 +647,11 @@
 
 	display: flex;
 	color: #6c8235;
-	font-family: Tahoma bold;
-	font-size: 80px;
-	margin-top: 60px;
-	margin-left: 40px;
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 65px;
+	margin-top: 80px;
+	margin-left: 140px;
 
 }
 
@@ -1091,7 +1095,7 @@
 	margin-bottom: auto;
 }
 
-#content1 
+/*#content1 
 {
 	width: 440px;
 	background-color: #6c8235;
@@ -1115,11 +1119,13 @@
   flex-wrap: wrap;
 }
 
-
 #contactArea {
   width: 469px;
   border-right: solid 1px #CCC;
   margin-bottom: 30px;
+  display: flex;
+  flex-direction: row;
+
 }
 
 
@@ -1134,6 +1140,7 @@
 {
   margin-top: 30px;
   padding-left: 10px;
+  width: 340px;
 }
 
 #contactForm label
@@ -1190,7 +1197,7 @@ input, textarea  {
   font-family: Tahoma;
   border: 1px solid #003471;
 }
-
+/*
 /*CSS3 ANIMATIONS*/
 
 .trillium
@@ -1220,3 +1227,171 @@ input, textarea  {
   }
 }
 
+
+#contactForm {
+	display: flex;
+	flex-direction: column;
+	width: 510px;
+	margin-left: 100px;
+	margin-right: 60px;
+	height: 300px;
+	line-height: 30px;
+}
+
+
+#submit {
+	width: 75px;
+	margin-top: 10px;
+	margin-left: auto;
+}
+
+#content2 {
+	text-align: center;
+	width: 716px;
+	margin: 0 auto;
+}
+
+#content2 h3 {
+	font-family: tahoma, sans-serif;
+	font-size: 24px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#content2 p {
+	font-family: linguisticspro-regular, 'times new roman', serif;
+	font-size: 16px;
+	line-height: 25px;
+}
+
+#contactPhoto img{
+	border-radius: 20px;
+	width: 400px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: 100px;
+}
+
+#topContact {
+	display: flex;
+	flex-direction: row;
+	width: 1000px;
+	margin-top:30px;
+}
+
+#bottomArea {
+	text-align: center;
+	display: flex;
+	flex-direction: row;
+}
+
+#meetingInfo {
+	width: 400px;
+	margin-left: auto;
+	margin-right: 130px;
+	margin-top: 30px;
+}
+
+#meetingInfo h4, h5 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#mailInfo {
+	width: 400px;
+	margin-left: 100px;
+	margin-top: 30px;
+}
+
+#mailInfo h4 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#mainFooter {
+	background-color: #7F9BC6;
+	height: 300px;
+	margin-top: 30px;
+}
+
+#footerNav
+{
+	height: 50px;
+	width: 700px;
+	margin-left: 60px;
+	margin-top: 30px;
+	display: flex;
+	flex-direction: row;
+}
+
+#footerNav ul
+{
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+}
+
+#footerNav ul li a
+{
+	display: block;
+	width: 100px;
+	color: white;
+	margin-left: 20px;
+	text-align: center;
+	margin-top: 20px;
+	text-decoration: none;
+	font-family: tahoma, helvetica;
+	font-size: 16px;
+}
+
+
+#footerNav ul li a:hover {
+	color: yellow;
+}
+
+#footerLinks {
+	text-align: center;
+	margin-top: 50px;
+	line-height: 30px;
+	color: white;
+}
+
+#footerLinks a {
+	text-transform: uppercase;
+	color: white;
+	font-family: tahoma, helvetica, sans-serif;
+	text-decoration: none;
+}
+#footerLinks a:hover {
+	color: #D8AE58;
+	transition: ease .3s;
+}
+#topButton {
+	display: flex;
+	flex-direction: row;
+	text-align: center;
+	margin-left: 1050px;
+	width: 100px;
+	height: 50px;
+	font-weight: bold;
+	font-family: Tahoma, sans-serif;
+	margin-top: -25px;
+
+	/* Old browsers */
+	background: -moz-linear-gradient(top, #c4c4c4 0%, #f1f1f1 72%, #f6f6f6 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #c4c4c4 0%,#f1f1f1 72%,#f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #c4c4c4 0%,#f1f1f1 72%,#f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+#linksFacebook img {
+	width: 60px;
+	margin-left: 30px;
+	margin-top: 50px;
+}
+
+#linksFacebook {
+	display: flex;
+	flex-direction: row;
+	margin-left: 200px;
+}
