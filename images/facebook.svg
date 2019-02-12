@@ -5,6 +5,7 @@
 <style type="text/css">
 	.st0{fill:#235B9E;}
 	.st1{fill:#FFFFFF;}
+	.st0:hover{fill: #999999;}
 </style>
 <g>
 	<path class="st0" d="M169,126.75c0,23.33-18.92,42.25-42.26,42.25h-84.5C18.91,169,0,150.08,0,126.75v-84.5
