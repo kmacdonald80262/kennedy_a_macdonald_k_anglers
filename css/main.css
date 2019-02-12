@@ -7,10 +7,10 @@
 	display: none;
 }
 
-p 
-{
-	font-family: Tahoma;
-}
+
+.mySlides {display:none;}
+
+
 #siteContainer
 {
 	margin: 0 auto;
@@ -113,14 +113,15 @@ p
 	text-align: center;
 	font-size: 18px;
 	margin-top: 40px;
-	font-family: Tahoma; 
+	font-family: tahoma, sans-serif;
 }
 
 #eventDesc p:first-line
 {
 	font-weight: bold;
 	font-size: 30px;
-	font-family: Tahoma bold;
+	font-family: tahoma, calibri, sans-serif;
+	font-weight: bold;
 }
 
 /*PRODUCTS SECTION*/
@@ -143,7 +144,8 @@ p
 }
 #prodBanner h2
 {
-	font-family: Tahoma bold;
+	font-family: tahoma, calibri, sans-serif;
+	font-weight: bold;
 	color: white;
 	font-size: 14px;
 	margin-top: 10px;
@@ -152,7 +154,7 @@ p
 
 #prodBanner p
 {
-	font-family: Tahoma;
+	font-family: tahoma, calibri, sans-serif;
 	color: white;
 	font-size: 14px;
 	margin-top: 20px;
@@ -208,7 +210,8 @@ p
 	font-size: 30px;
 	margin-left: 544px;
 	margin-top: 10px;
-	font-family: Tahoma bold;
+	font-family: tahoma, calibri, sans-serif;
+	font-weight: bold;
 }
 
 #prodBG
@@ -229,7 +232,8 @@ p
 	display: flex;
 	color: white;
 	text-align: center;
-	font-family: Tahoma bold;
+	font-family: tahoma, calibri, sans-serif;
+	font-weight: bold;
 	background-color: #3277b8;
 	border-radius: 5px;
 	padding: 8px;
@@ -249,7 +253,8 @@ p
 {
 	display: flex;
 	color: #6c8235;
-	font-family: Tahoma bold;
+	font-family: tahoma, calibri, sans-serif;
+	font-weight: bold;
 	font-size: 100px;
 	text-align: center;
 	margin-left: 400px;
@@ -312,7 +317,7 @@ p
   bottom: 110px;
   width: 100%;
   text-align: center;
-  font-family: Tahoma;
+  font-family: tahoma, calibri, sans-serif;
   font-size: 20px;
   width: 526px;
   height: 290px;
@@ -340,7 +345,7 @@ p
   position: absolute;
   top: 0;
   color: #ffeb3f;
-  font-family: Tahoma;
+  font-family: tahoma, calibri, sans-serif;
   text-shadow: 3px 3px 8px black;
 }
 
@@ -381,7 +386,8 @@ p
 #projText h2
 {
 	text-align: center;
-	font-family: Tahoma bold;
+	font-family: tahoma, calibri, sans-serif;
+	font-weight: bold;
 	color: #4f5f27;
 	font-size: 25px;
 	margin-top: 10px;
@@ -390,7 +396,7 @@ p
 #projText p
 {
 	text-align: center;
-	font-family: Tahoma;
+	font-family: tahoma, calibri, sans-serif;
 	color: #4f5f27;
 	font-size: 15px;
 	width: 420px;
@@ -420,7 +426,8 @@ p
 #aboutText p
 {
 	
-	font-family: Tahoma bold;
+	font-family: tahoma, calibri, sans-serif;
+	font-weight: bold;
 	font-size: 25px;
 }
 
@@ -449,7 +456,7 @@ p
 {
 	text-align: center;
 	margin-top: 10px;
-	font-family: Tahoma;
+	font-family: tahoma, calibri, sans-serif;
 	color: #4f5f27;
 	padding: 5px 5px 38px 5px;
 	border: 5px dashed #4f5f27;
@@ -480,7 +487,7 @@ p
 {
 	text-align: center;
 	margin-top: 10px;
-	font-family: Tahoma;
+	font-family: tahoma, calibri, sans-serif;
 	color: #4f5f27;
 	padding: 5px 5px 5px 5px;
 	border: 5px dashed #4f5f27;
@@ -550,7 +557,7 @@ p
 
 #sponsor p
 {
-	font-family: Tahoma;
+	font-family: tahoma, calibri, sans-serif;
 	margin-top: 15px;
 	text-align: center;
 }
@@ -647,7 +654,7 @@ p
 
 	display: flex;
 	color: #6c8235;
-	font-family: Tahoma;
+	font-family: tahoma, calibri, sans-serif;
 	font-weight: bold;
 	font-size: 65px;
 	margin-top: 80px;
@@ -680,16 +687,17 @@ p
 {
 	width: 260px;
 	text-align: center;
-	font-family: Tahoma;
-	font-color: #4f5f27;
+	font-family: tahoma, calibri, sans-serif;
+	color: #4f5f27;
 	margin-top: 10px;
 }
 
 #events h2
 {
 	text-align: center;
-	font-family: Tahoma bold;
-	font-color: #4f5f27;
+	font-family: tahoma, calibri, sans-serif;
+	font-weight: bold;
+	color: #4f5f27;
 	margin-top: 5px;
 	font-size: 15px;
 }
@@ -768,20 +776,22 @@ p
 {
 	margin-left: 200px;
 }
+
 #readMore p
 {
 	width: 500px;
 	text-align: center;
-	font-family: Tahoma;
-	font-color: #4f5f27;
+	font-family: tahoma, calibri, sans-serif;
+	color: #4f5f27;
 	margin-top: 10px;
 }
 
 #readMore h2
 {
 	text-align: center;
-	font-family: Tahoma bold;
-	font-color: #4f5f27;
+	font-family: tahoma, calibri, sans-serif;
+	font-weight: bold;
+	color: #4f5f27;
 	margin-top: 5px;
 	font-size: 15px;
 }
@@ -790,7 +800,7 @@ p
 
 /*Start of Newsletters section */
 
-#newsBanner {
+.banner {
 	display: flex;
 	flex-direction: row;
   	justify-content: space-evenly;
@@ -805,10 +815,10 @@ p
 	transform: rotate(45deg);
 }
 
-#newsBanner h2 {
+.banner h2 {
 	display: flex;
 	color: #6c8235;
-	font-family: Tahoma, Helvetica, sans-serif;
+	font-family: tahoma, helvetica, sans-serif;
 	font-size: 100px;
 	text-align: center;
 	font-weight: bold;
@@ -848,7 +858,7 @@ p
 
 #newsLinks a {
 	text-decoration: none;
-	font-family: serif;
+	font-family: linguisticspro, 'times new roman', serif;
 	font-size: 45px;
 	line-height: 80px;
 	color: white;
@@ -874,7 +884,7 @@ p
 	margin-left: auto;
 	margin-right: auto;
 	line-height: 40px;
-	font-family: serif;
+	font-family: linguistics-proregular, 'times new roman', serif;
 	color: black;
 	font-size: 18px;
 	padding-top: 40px;
@@ -906,7 +916,7 @@ p
 #linksBanner h2 {
 	display: flex;
 	color: #7F9BC6;
-	font-family: Tahoma, Helvetica, sans-serif;
+	font-family: tahoma, helvetica, sans-serif;
 	font-size: 100px;
 	text-align: center;
 	font-weight: bold;
@@ -925,7 +935,7 @@ p
 #linksArea h2 {
 	padding-top: 30px;
 	text-align: center;
-	font-family: 'times new roman', serif;
+	font-family: linguistics-proregular, 'times new roman', serif;
 	font-size: 24px;
 	font-weight: bolder;
 	text-decoration: underline;
@@ -933,7 +943,7 @@ p
 }
 
 #conserFishinist {
-	font-family: 'times new roman', serif;
+	font-family: linguistics-proregular, 'times new roman', serif;
 	font-size: 24px;
 	font-style: italic;
 	font-weight: bolder;
@@ -1087,7 +1097,7 @@ p
 #contactBanner h2 {
 	display: flex;
 	color: #6c8235;
-	font-family: Tahoma, Helvetica, sans-serif;
+	font-family: tahoma, helvetica, sans-serif;
 	font-size: 100px;
 	text-align: center;
 	font-weight: bold;
@@ -1095,109 +1105,6 @@ p
 	margin-bottom: auto;
 }
 
-/*#content1 
-{
-	width: 440px;
-	background-color: #6c8235;
-}
-
-#content2 
-{
-	margin-left: auto;
-	width: 440px;
-}
-
-#mainContact
-{
-  width: 940px;
-  padding-top: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-}
-
-#contactArea {
-  width: 469px;
-  border-right: solid 1px #CCC;
-  margin-bottom: 30px;
-  display: flex;
-  flex-direction: row;
-
-}
-
-
-#contactText {
-  font-size: 21px;
-  font-family: Tahoma;
-  margin-bottom: 30px;
-  width: 340px;
-}
-
-#contactForm
-{
-  margin-top: 30px;
-  padding-left: 10px;
-  width: 340px;
-}
-
-#contactForm label
-{
-	color: white;
-	font-family: Tahoma;
-	font-size: 22px;
-}
-
-
-fieldset {
-  border: none;
-  padding: 0px;
-}
-
-
-input, textarea  {
-  color: pink;
-  font-size: 11px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  padding: 10px;
-  width: 300px;
-  height: 10px;
-  background-color: #efefef;
-  display: block;
-  border: 1px solid #999;
-  color: #333;
-
-}
-
-#comments
-{
-  width: 300px;
-  height: 140px;
-}
-
-
-
-#submit
-{
-  display: block;
-  width: 75px;
-  height: 30px;
-  text-align: center;
-  margin-top: 30px;
-  color: #1d4036;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  background-color: white;
-  font-size: 14px;
-  font-family: Tahoma;
-  border: 1px solid #003471;
-}
-/*
 /*CSS3 ANIMATIONS*/
 
 .trillium
@@ -1252,14 +1159,14 @@ input, textarea  {
 }
 
 #content2 h3 {
-	font-family: tahoma, sans-serif;
+	font-family: tahoma, calibri, sans-serif;
 	font-size: 24px;
 	padding-top: 30px;
 	padding-bottom: 20px;
 }
 
 #content2 p {
-	font-family: linguisticspro-regular, 'times new roman', serif;
+	font-family: linguistics-proregular, 'times new roman', serif;
 	font-size: 16px;
 	line-height: 25px;
 }
@@ -1312,6 +1219,7 @@ input, textarea  {
 	background-color: #7F9BC6;
 	height: 300px;
 	margin-top: 30px;
+	position: absolute;
 }
 
 #footerNav
@@ -1340,7 +1248,7 @@ input, textarea  {
 	text-align: center;
 	margin-top: 20px;
 	text-decoration: none;
-	font-family: tahoma, helvetica;
+	font-family: tahoma, helvetica, sans-serif;
 	font-size: 16px;
 }
 
@@ -1356,6 +1264,11 @@ input, textarea  {
 	color: white;
 }
 
+#fb
+{
+	position: relative;
+}
+
 #footerLinks a {
 	text-transform: uppercase;
 	color: white;
@@ -1367,21 +1280,32 @@ input, textarea  {
 	transition: ease .3s;
 }
 #topButton {
-	display: flex;
-	flex-direction: row;
+	border-radius: 10px;
 	text-align: center;
 	margin-left: 1050px;
+	margin-right: 50px;
 	width: 100px;
 	height: 50px;
 	font-weight: bold;
-	font-family: Tahoma, sans-serif;
+	font-family: tahoma, calibri, sans-serif;
 	margin-top: -25px;
+
 
 	/* Old browsers */
 	background: -moz-linear-gradient(top, #c4c4c4 0%, #f1f1f1 72%, #f6f6f6 100%); /* FF3.6-15 */
 	background: -webkit-linear-gradient(top, #c4c4c4 0%,#f1f1f1 72%,#f6f6f6 100%); /* Chrome10-25,Safari5.1-6 */
 	background: linear-gradient(to bottom, #c4c4c4 0%,#f1f1f1 72%,#f6f6f6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c4c4c4', endColorstr='#f6f6f6',GradientType=0 ); /* IE6-9 */
+}
+
+#topButton p {
+
+	padding-top: 15px;
+}
+
+#topButton a
+{
+	text-decoration: none;
 }
 
 #linksFacebook img {
@@ -1395,3 +1319,4 @@ input, textarea  {
 	flex-direction: row;
 	margin-left: 200px;
 }
+
